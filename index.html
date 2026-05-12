@@ -1,0 +1,69 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rick and Morty Explorer</title>
+    <link rel="stylesheet" href="CSS/styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Rick and Morty Explorer</h1>
+      <p>Explora los personajes de Rick and Morty con búsqueda, filtros y paginación. Esta SPA consume la API pública de Rick and Morty sin frameworks.</p>
+    </header>
+
+    <main>
+      <section class="filters" aria-labelledby="filter-title">
+        <h2 id="filter-title">Buscar y filtrar personajes</h2>
+
+        <form id="search-form">
+          <div class="form-group">
+            <label for="name">Nombre</label>
+            <input type="text" id="name" name="name" placeholder="Ej. Rick" />
+          </div>
+          <div class="form-group">
+            <label for="status">Estado</label>
+            <select id="status" name="status">
+              <option value="">Todos</option>
+              <option value="alive">Alive</option>
+              <option value="dead">Dead</option>
+              <option value="unknown">unknown</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="gender">Género</label>
+            <select id="gender" name="gender">
+              <option value="">Todos</option>
+              <option value="female">Female</option>
+              <option value="male">Male</option>
+              <option value="genderless">Genderless</option>
+              <option value="unknown">unknown</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="species">Especie</label>
+            <input type="text" id="species" name="species" placeholder="Ej. Human" />
+          </div>
+          <div class="form-group">
+            <label>&nbsp;</label>
+            <button type="submit">Aplicar filtros</button>
+          </div>
+        </form>
+      </section>
+
+      <section id="cards-container" class="cards-grid" aria-live="polite"></section>
+
+      <section class="pagination" aria-label="Paginación de personajes">
+        <button id="prev-page" type="button">Anterior</button>
+        <span class="page-label" id="page-text">Página 1 de 1</span>
+        <button id="next-page" type="button">Siguiente</button>
+      </section>
+    </main>
+
+    <footer>
+      <p>Datos proporcionados por la API pública de <a href="https://rickandmortyapi.com/" target="_blank" rel="noreferrer noopener">Rick and Morty API</a>.</p>
+    </footer>
+
+    <script type="module" src="JS/main.js"></script>
+  </body>
+</html>

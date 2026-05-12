@@ -1,0 +1,5 @@
+Nombre(s) del/los integrante(s):
+- Nombre del alumno 1
+- Nombre del alumno 2 (opcional)
+
+Reemplace los nombres anteriores con los reales antes de subir al repositorio.
