@@ -1,5 +1,0 @@
-Pregunta a la IA:
-- Desarrollar una aplicación web SPA simple con la Rick and Morty API, listar personajes, paginación, búsqueda y filtros usando HTML, CSS y JavaScript puro.
-
-Respuesta de la IA:
-- Se proporcionaron los archivos necesarios: index.html, CSS/styles.css, JS/api.js, JS/ui.js y JS/main.js. El código implementa fetch con async/await, tarjetas de personajes, paginación con botones prev/sig, filtros por nombre, estado, género y especie, y diseño responsivo.
