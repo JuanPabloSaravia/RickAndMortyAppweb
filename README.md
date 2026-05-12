@@ -13,9 +13,9 @@ La aplicación muestra los personajes de Rick and Morty con la información prin
 - Filtros combinables por estado, género y especie.
 - Diseño responsivo para escritorio y dispositivos móviles.
 
-## Integrantes
-- Nombre del alumno 1
-- Nombre del alumno 2 (opcional)
+## Integrante
+- Juan Pablo Saravia
+
 
 ## Estructura del proyecto
 
@@ -24,8 +24,6 @@ La aplicación muestra los personajes de Rick and Morty con la información prin
 - `JS/api.js` - Funciones que consultan la API de Rick and Morty.
 - `JS/ui.js` - Funciones que renderizan las tarjetas, la paginación y los mensajes de error.
 - `JS/main.js` - Lógica principal de la aplicación, gestión del estado y eventos.
-- `integrantes.txt` - Nombres de los integrantes del trabajo.
-- `ia-copilot-preguntas-respuestas.txt` - Registro de preguntas y respuestas con la IA.
 - `.gitignore` - Archivos y carpetas excluidos del control de versiones.
 
 ## Tecnologías utilizadas
@@ -41,15 +39,6 @@ La aplicación muestra los personajes de Rick and Morty con la información prin
    - Con Visual Studio Code y la extensión Live Server.
    - Con un servidor simple desde la terminal.
 
-### Ejemplo de servidor local con Python
-
-```bash
-cd "c:/Users/Administrador/Documents/DSW/Prog2/RickAndMortyAppweb"
-python -m http.server 5500
-```
-
-Luego abrir `http://localhost:5500` en el navegador.
-
 ## Funcionalidades principales
 
 - Listado de personajes en tarjetas con la imagen, estado, especie, género y origen.
@@ -62,9 +51,3 @@ Luego abrir `http://localhost:5500` en el navegador.
 ## API utilizada
 
 - Rick and Morty API: https://rickandmortyapi.com/
-
-## Creditos y notas
-
-- El proyecto fue desarrollado como una entrega de curso con uso de Git y GitHub.
-- El archivo `integrantes.txt` contiene los nombres de los participantes.
-- El archivo `ia-copilot-preguntas-respuestas.txt` documenta la interacción con la IA utilizada.
